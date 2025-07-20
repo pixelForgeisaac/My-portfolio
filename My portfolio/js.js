@@ -47,7 +47,7 @@ window.addEventListener('scroll', function() {
     if (window.scrollY > 50) {
         navbar.style.background ='hsla(286, 94%, 50%, 0.95);' 
     } else {
-        navbar.style.background = 'rgba(153, 21, 253, 0.95)';
+        navbar.style.background = 'hsla(286, 94%, 50%, 0.95)';
         navbar.style.boxShadow = 'none';
     }
 });

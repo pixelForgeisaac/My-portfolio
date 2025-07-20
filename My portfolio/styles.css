@@ -60,7 +60,7 @@ body::before {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #4a90e2;
+    color: #010407;
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ body::before {
 }
 
 .highlight {
-    color: #ffd700;
+    color: #ff00c3;
 }
 
 .hero-subtitle {
@@ -140,6 +140,8 @@ body::before {
     font-size: 1.1rem;
     margin-bottom: 2rem;
     opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
 }
 html{
     scroll-behavior: smooth;
@@ -181,7 +183,7 @@ html{
 .btn-secondary {
     background: transparent;
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgba(244, 9, 119, 0.897);
 }
 
 .btn-secondary:hover {
@@ -220,6 +222,7 @@ html{
     margin-bottom: 3rem;
     color:  white;
     position: relative;
+    font-weight: 800;
 }
 
 .section-title::after {
@@ -252,6 +255,7 @@ html{
     margin-bottom: 1.5rem;
     line-height: 1.8;
     color: white;
+    font-weight: 700;
 }
 
 .about-stats {
@@ -302,7 +306,7 @@ html{
 }
 
 .skill-card {
-    background: #1cf5f5;
+    background: #4afa7f;
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
@@ -316,18 +320,18 @@ html{
 
 .skill-icon {
     font-size: 3rem;
-    color: #4a90e2;
+    color: #020202;
     margin-bottom: 1rem;
 }
 
 .skill-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: white;
+    color: rgb(250, 247, 247);
 }
 
 .skill-card p {
-    color: #666;
+    color: #0c0c0c;
     line-height: 1.6;
 }
 
@@ -435,10 +439,12 @@ html{
     color:  white;
     margin-bottom: 2rem;
     line-height: 1.8;
+    font-weight: bold;
 }
 
 .contact-items {
     margin-bottom: 2rem;
+    
 }
 
 .contact-item {
@@ -447,12 +453,14 @@ html{
     gap: 1rem;
     margin-bottom: 1rem;
     color: white;
+    border-radius: 50px;
 }
 
 .contact-item i {
     color: #4a90e2;
     width: 20px;
 }
+
 
 .social-links {
     display: flex;
@@ -511,7 +519,7 @@ html{
     background: #333;
     color: white;
     padding: 2rem 0;
-    text-align: center;
+    text-align: right;
 }
 
 /* Responsive Design */
