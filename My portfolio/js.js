@@ -45,9 +45,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', function() {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
-        navbar.style.background ='hsla(286, 94%, 50%, 0.95);' 
+        navbar.style.background ='hsla(286, 32%, 13%, 0.95);' 
     } else {
-        navbar.style.background = 'hsla(286, 94%, 50%, 0.95)';
+        navbar.style.background = 'hsla(286, 37%, 11%, 0.95)';
         navbar.style.boxShadow = 'none';
     }
 });
@@ -151,4 +151,17 @@ function typeWriter(element, text, speed = 100) {
     let i = 0;
     element.text
     };
-   
+
+
+// Add visual feedback for form inputs
+document.querySelectorAll('.form-group input, .form-group textarea').forEach(input => {
+    input.addEventListener('focus', function() {
+        this.parentElement.classList.add('focused');
+    });
+
+    input.addEventListener('blur', function() {
+        if (!this.value) {
+            this.parentElement.classList.remove('focused');
+        }
+    });
+});

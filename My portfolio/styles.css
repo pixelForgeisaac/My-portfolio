@@ -41,7 +41,7 @@ body::before {
     position: fixed;
     top: 0;
     width: 100%;
-    background: purple;
+    background: rgb(73, 43, 73);
     backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 1rem 0;
@@ -59,8 +59,8 @@ body::before {
 
 .nav-logo a {
     font-size: 1.5rem;
-    font-weight: bold;
-    color: #010407;
+    font-weight: 800;
+    color: white;
     text-decoration: none;
 }
 
@@ -181,14 +181,14 @@ html{
 }
 
 .btn-secondary {
-    background: transparent;
+    background: blueviolet;
     color: white;
     border: 2px solid rgba(244, 9, 119, 0.897);
 }
 
 .btn-secondary:hover {
-    background: white;
-    color: #333;
+    background: rgb(245, 32, 135);
+    color: #0c9ffa;
     transform: translate(-2px);
 }
 
@@ -219,10 +219,10 @@ html{
 .section-title {
     font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     color:  white;
     position: relative;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .section-title::after {
@@ -416,7 +416,6 @@ html{
     color: #357abd;
 }
 
-/* Contact Section */
 .contact {
     position: relative;
     background:transparent;
@@ -461,60 +460,18 @@ html{
     width: 20px;
 }
 
-
-.social-links {
-    display: flex;
-    gap: 1rem;
+.social-media a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #4d07f2;
+    transition: color 0.3s;
+    display: inline-block;
 }
 
-.social-link {
-    width: 40px;
-    height: 40px;
-    background: #4a90e2;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    text-decoration: none;
-    transition: background 0.3s ease;
+.social-media a:hover {
+    color: hsl(141, 80%, 46%);
 }
 
-.social-link:hover {
-    background: #357abd;
-}
-
-.contact-form {
-    background: #f8f9fa;
-    padding: 2rem;
-    border-radius: 15px;
-}
-
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: #4a90e2;
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-/* Footer */
 .footer {
     background: #333;
     color: white;
